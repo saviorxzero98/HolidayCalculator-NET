@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{17EE1AC5-2DEA-4B36-8687-195909967D7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{538CCB4D-4005-4D67-872F-F4197B42F413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCalculator.Core", "src\HolidayCalculator.Core\HolidayCalculator.Core.csproj", "{5087EB79-0E78-4A99-8A91-236106FC3330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCalculator.Core.Test", "test\HolidayCalculator.Core.Test\HolidayCalculator.Core.Test.csproj", "{6317CC2F-749D-4531-847C-87DF08AC1191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCalculator.Providers.TW", "src\Providers\HolidayCalculator.Providers.TW\HolidayCalculator.Providers.TW.csproj", "{04F5E380-EF1F-4920-92D4-6F2EAD128FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCalculator.Providers.TW.Test", "test\Providers\HolidayCalculator.Providers.TW.Test\HolidayCalculator.Providers.TW.Test.csproj", "{F036D4DE-3240-48E6-8CAD-2A85B493335F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5087EB79-0E78-4A99-8A91-236106FC3330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5087EB79-0E78-4A99-8A91-236106FC3330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5087EB79-0E78-4A99-8A91-236106FC3330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5087EB79-0E78-4A99-8A91-236106FC3330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6317CC2F-749D-4531-847C-87DF08AC1191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6317CC2F-749D-4531-847C-87DF08AC1191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6317CC2F-749D-4531-847C-87DF08AC1191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6317CC2F-749D-4531-847C-87DF08AC1191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F5E380-EF1F-4920-92D4-6F2EAD128FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F5E380-EF1F-4920-92D4-6F2EAD128FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F5E380-EF1F-4920-92D4-6F2EAD128FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F5E380-EF1F-4920-92D4-6F2EAD128FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F036D4DE-3240-48E6-8CAD-2A85B493335F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F036D4DE-3240-48E6-8CAD-2A85B493335F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F036D4DE-3240-48E6-8CAD-2A85B493335F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F036D4DE-3240-48E6-8CAD-2A85B493335F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5087EB79-0E78-4A99-8A91-236106FC3330} = {17EE1AC5-2DEA-4B36-8687-195909967D7F}
+		{6317CC2F-749D-4531-847C-87DF08AC1191} = {538CCB4D-4005-4D67-872F-F4197B42F413}
+		{04F5E380-EF1F-4920-92D4-6F2EAD128FF7} = {17EE1AC5-2DEA-4B36-8687-195909967D7F}
+		{F036D4DE-3240-48E6-8CAD-2A85B493335F} = {538CCB4D-4005-4D67-872F-F4197B42F413}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F33510C8-5263-47D3-9165-A37D90DBB53B}
+	EndGlobalSection
+EndGlobal
